@@ -26,3 +26,4 @@ mymodel=model.LogicNet(inputdim=2,hiddendim=3,outputdim=2) # 实例化模型
 optimizer=torch.optim.Adam(mymodel.parameters(),lr=0.01) # 定义优化器
 
 a = 1
+

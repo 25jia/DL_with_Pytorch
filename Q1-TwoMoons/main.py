@@ -7,6 +7,10 @@ import model
 import utils
 import torch.nn as nn
 from sklearn.metrics import accuracy_score
+import os
+
+print(torch.cuda.is_available())
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 
 """数据导入"""
@@ -22,7 +26,7 @@ yt = torch.from_numpy(Y).type(torch.LongTensor)
 """模型准备"""
 my_model = model.LogicNet(inputdim=2, hiddendim=3, outputdim=2)  # 实例化模型
 criterion = nn.CrossEntropyLoss()  # 定义交叉熵函数
-optimizer = torch.optim.Adam(my_model.parameters(), lr=1e-3)  # 定义优化器
+optimizer = torch.optim.Adam(my_model.parameters(), lr=1e-2)  # 定义优化器
 
 
 """训练"""

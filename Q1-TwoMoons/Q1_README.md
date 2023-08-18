@@ -42,6 +42,7 @@
 > 
 
 ![图片2](./Figure2_Loss.png "Loss")
+
 [//]: # (![tu2]&#40;https://github.com/25jia/DL_with_Pytorch/blob/master/Q1-TwoMoons/Figure2_Loss.png&#41;)
 
 ## 4 Tips

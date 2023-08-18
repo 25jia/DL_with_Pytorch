@@ -4,11 +4,11 @@
 
 [//]: # (<img src="./Figure1_MoosData.png" alt="" title="图片title">)
 
-[//]: # (![图片1]&#40;./Figure1_MoosData.png "MoosData"&#41;)
-[//]: # (![图片3]&#40;./Figure3_LinearPredict.png "Boundary"&#41;)
+![图片1](./Figure1_MoosData.png "MoosData")
+![图片3](./Figure3_LinearPredict.png "Boundary")
 
-![tu1](https://github.com/25jia/DL_with_Pytorch/blob/master/Q1-TwoMoons/Figure1_MoosData.png)
-![tu3](https://github.com/25jia/DL_with_Pytorch/blob/master/Q1-TwoMoons/Figure3_LinearPredict.png)
+[//]: # (![tu1]&#40;https://github.com/25jia/DL_with_Pytorch/blob/master/Q1-TwoMoons/Figure1_MoosData.png&#41;)
+[//]: # (![tu3]&#40;https://github.com/25jia/DL_with_Pytorch/blob/master/Q1-TwoMoons/Figure3_LinearPredict.png&#41;)
 
 ## 1 Our code
 ### `model.py`
@@ -41,9 +41,8 @@
 > Below gives a loss history example.
 > 
 
-[//]: # (![图片2]&#40;./Figure2_Loss.png "Loss"&#41;)
-
-![tu2](https://github.com/25jia/DL_with_Pytorch/blob/master/Q1-TwoMoons/Figure2_Loss.png)
+![图片2](./Figure2_Loss.png "Loss")
+[//]: # (![tu2]&#40;https://github.com/25jia/DL_with_Pytorch/blob/master/Q1-TwoMoons/Figure2_Loss.png&#41;)
 
 ## 4 Tips
 > 1. Comment out `os.environ['CUDA_VISIBLE_DEVICES'] = '0'`, if you use cpu only.

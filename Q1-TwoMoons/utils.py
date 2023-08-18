@@ -27,10 +27,10 @@ def moving_average(a, w=10):
 
 
 def plot_loss(losses):
-    avgloss = moving_average(losses)
+    avg_loss = moving_average(losses)
     plt.figure(1)
     plt.subplot(211)
-    plt.plot(range(len(avgloss)), avgloss, 'b--')
+    plt.plot(range(len(avg_loss)), avg_loss, 'b--')
     plt.xlabel('Step number')
     plt.ylabel('Training loss')
     plt.title('Step number vs. Training loss')

@@ -45,7 +45,6 @@ print(accuracy_score(my_model.predict(xt),yt))
 
 """可视化训练结果与模型"""
 utils.plot_loss(losses)
-
 utils.plot_decision_boundary(my_model, X, Y)
 
 
